@@ -4,7 +4,7 @@ A simple **WPF (Windows Presentation Foundation)** desktop application built in 
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - **Language**: C#
 - **Framework**: .NET (WPF Desktop Application)
@@ -13,7 +13,7 @@ A simple **WPF (Windows Presentation Foundation)** desktop application built in 
 
 ---
 
-## 🎮 Features
+## Features
 
 - Interactive tile-based memory game
 - Uses randomization for icon placement
@@ -48,26 +48,15 @@ MatchGame.sln                      # Visual Studio solution file
 ```
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Open `MatchGame.sln` in Visual Studio
 2. Build the solution
 3. Run the app — the window will open with the tile-based matching game
 4. Click on two tiles to find matches!
 
----
 
-## 📌 Educational Use
 
-This project is ideal for:
-- Beginners learning C# and WPF
-- Exploring XAML layouts and styling
-- Practicing event handling and simple logic in a GUI
 
----
-
-## 👤 Author
-
-Built for learning purposes by **[Your Name Here]**. Feel free to fork, play, and improve!
 
 
