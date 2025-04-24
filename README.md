@@ -1,6 +1,73 @@
 # MatchGame
 
-MatchGame is a memory-based matching game developed in **C#** using the **.NET Framework 4.7.2** and designed with **Windows Presentation Foundation (WPF)**.
-The game provides an interactive 4x4 grid where players click on tiles to reveal hidden animal emoji pairs, aiming to match all pairs as quickly as possible.
-It features a built-in timer to track the player's performance and a restart option for replayability. The project is built using **Visual Studio**, leveraging its robust tools for XAML-based UI design and debugging.
-MatchGame demonstrates core programming concepts such as event-driven programming, data binding, and UI/UX design principles in WPF.
+A simple **WPF (Windows Presentation Foundation)** desktop application built in **C#**, where users match icons hidden behind tiles. This project demonstrates fundamental event-driven programming and UI handling in .NET.
+
+---
+
+## 🧰 Technologies Used
+
+- **Language**: C#
+- **Framework**: .NET (WPF Desktop Application)
+- **UI**: XAML (Windows Presentation Foundation)
+- **IDE**: Visual Studio
+
+---
+
+## 🎮 Features
+
+- Interactive tile-based memory game
+- Uses randomization for icon placement
+- Implements WPF events (e.g. click handlers)
+- UI built with XAML
+- Beginner-friendly project structure
+
+---
+
+## 📁 Solution Structure
+```
+MatchGame.sln                      # Visual Studio solution file
+
+├── MatchGame/                     # WPF Application Project
+│   ├── App.config                 # Application configuration
+│   ├── App.xaml                   # WPF application definition
+│   ├── App.xaml.cs                # Code-behind for App.xaml
+│   ├── MainWindow.xaml            # UI layout for the main window
+│   ├── MainWindow.xaml.cs         # Code-behind with game logic
+│   ├── MatchGame.csproj           # Project file
+│   └── Properties/                # Assembly & resource metadata
+│       ├── AssemblyInfo.cs
+│       ├── Resources.Designer.cs
+│       ├── Resources.resx
+│       ├── Settings.Designer.cs
+│       └── Settings.settings
+
+├── .gitignore
+├── .gitattributes
+└── README.md
+
+```
+---
+
+## 🚀 How to Run
+
+1. Open `MatchGame.sln` in Visual Studio
+2. Build the solution
+3. Run the app — the window will open with the tile-based matching game
+4. Click on two tiles to find matches!
+
+---
+
+## 📌 Educational Use
+
+This project is ideal for:
+- Beginners learning C# and WPF
+- Exploring XAML layouts and styling
+- Practicing event handling and simple logic in a GUI
+
+---
+
+## 👤 Author
+
+Built for learning purposes by **[Your Name Here]**. Feel free to fork, play, and improve!
+
+
